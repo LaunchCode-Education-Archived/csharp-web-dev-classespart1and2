@@ -6,7 +6,8 @@ namespace SchoolPractice
     {
         public static void Main(string[] args)
         {
-            Student Will = new Student("William Morrison", 1, 4.0);
+            Student will = new Student("William Morrison", 1, 4.0);
+            Console.WriteLine(will);
         }
     }
 }
